@@ -1,0 +1,144 @@
+{
+  "entrySpaceId": "c768e42e-e09d-43f1-8185-477cb2fc2f4d",
+  "objects": {
+    "50dc2ae6-6404-47bb-845c-bd782b62a554": {
+      "components": {},
+      "geometry": null,
+      "id": "50dc2ae6-6404-47bb-845c-bd782b62a554",
+      "light": {
+        "type": "directional",
+        "intensity": 1
+      },
+      "material": null,
+      "name": "Luz direccional",
+      "order": 2.5,
+      "parentId": "c768e42e-e09d-43f1-8185-477cb2fc2f4d",
+      "position": [
+        20,
+        50,
+        10
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "82a14a75-60b5-4eba-87a2-8d0f4e152010": {
+      "components": {},
+      "geometry": null,
+      "id": "82a14a75-60b5-4eba-87a2-8d0f4e152010",
+      "light": {
+        "type": "ambient"
+      },
+      "material": null,
+      "name": "Luz ambiental",
+      "order": 1.5,
+      "parentId": "c768e42e-e09d-43f1-8185-477cb2fc2f4d",
+      "position": [
+        10,
+        5,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "a4cf8c39-c3e2-477a-8f64-9d8d7eb58f26": {
+      "components": {},
+      "geometry": {
+        "type": "box",
+        "width": 1,
+        "height": 1,
+        "depth": 1
+      },
+      "id": "a4cf8c39-c3e2-477a-8f64-9d8d7eb58f26",
+      "material": {
+        "type": "basic",
+        "color": "#7611b6",
+        "textureFiltering": "sharp"
+      },
+      "name": "Cubo",
+      "order": 3.5,
+      "parentId": "c768e42e-e09d-43f1-8185-477cb2fc2f4d",
+      "position": [
+        0,
+        0.5,
+        -2.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      }
+    },
+    "c654c4da-807b-4a25-891c-7555be79f0a5": {
+      "camera": {
+        "type": "perspective",
+        "fov": 60,
+        "nearClip": 0.01,
+        "farClip": 1000,
+        "xr": {
+          "xrCameraType": "world",
+          "phone": "AR",
+          "desktop": "3D",
+          "headset": "disabled"
+        }
+      },
+      "components": {},
+      "geometry": null,
+      "id": "c654c4da-807b-4a25-891c-7555be79f0a5",
+      "material": null,
+      "name": "Cámara",
+      "order": 0.5,
+      "parentId": "c768e42e-e09d-43f1-8185-477cb2fc2f4d",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  "spaces": {
+    "c768e42e-e09d-43f1-8185-477cb2fc2f4d": {
+      "activeCamera": "c654c4da-807b-4a25-891c-7555be79f0a5",
+      "id": "c768e42e-e09d-43f1-8185-477cb2fc2f4d",
+      "name": "Espacio principal"
+    }
+  }
+}
